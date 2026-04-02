@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "slack": {
+      "command": "npx",
+      "args": ["-y", "claude-slack-two-way"],
+      "env": {
+        "SLACK_BOT_TOKEN": "TODO: xoxb-で始まるBot Token を設定",
+        "SLACK_TEAM_ID": "TODO: Slack ワークスペース ID を設定"
+      }
+    },
+    "freee": {
+      "command": "npx",
+      "args": ["-y", "freee-mcp"],
+      "env": {
+        "FREEE_CLIENT_ID": "TODO: freee アプリの Client ID を設定",
+        "FREEE_CLIENT_SECRET": "TODO: freee アプリの Client Secret を設定",
+        "FREEE_REDIRECT_URI": "TODO: リダイレクト URI を設定"
+      }
+    },
+    "obsidian": {
+      "command": "npx",
+      "args": ["-y", "obsidian-claude-code-mcp"],
+      "env": {
+        "OBSIDIAN_VAULT_PATH": "TODO: ../Brain/ の絶対パスを設定"
+      }
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/claude-code-github-mcp"]
+    }
+  }
+}

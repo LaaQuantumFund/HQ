@@ -1,0 +1,61 @@
+{
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📬 Claude Code: 入力待ち' | head -1"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'リマインダー: ここはHQ（統括）。作業は委任、社長は判断のみ。Slack経由の指示に対応。infrastructure/architecture.mdで全体構成を確認。tasks/lessons.mdを確認。'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "作業が完了した場合、dashboard/agent-log.md に作業内容を追記したか確認してください。未追記なら {\"ok\": false, \"reason\": \"agent-log.md に作業ログを追記してください\"} を返してください。"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(gh *)",
+      "Bash(git *)",
+      "Bash(cat *)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(ls *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(tmux ls)",
+      "Bash(tmux send-keys *)",
+      "Bash(docker-compose logs *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(curl POST)",
+      "Bash(curl DELETE)",
+      "Bash(reboot)",
+      "Bash(shutdown *)",
+      "Bash(ufw *)"
+    ]
+  }
+}
