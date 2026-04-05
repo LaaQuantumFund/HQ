@@ -10,7 +10,7 @@ Sonnet（コンテンツ制作・SEO分析）
 `../content/`
 
 ## 読み込み必須
-- 自部門の CLAUDE.md（../cmo/CLAUDE.md）も必ず読み込むこと
+- 自部門の CLAUDE.md（../cmo（最高マーケティング責任者）/CLAUDE.md）も必ず読み込むこと
 - ../guidelines/brand-guidelines.md を必ず確認すること
 - ../guidelines/ 配下の全ファイルを行動規範とすること
 

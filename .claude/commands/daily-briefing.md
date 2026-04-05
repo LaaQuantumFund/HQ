@@ -10,12 +10,12 @@
 
 ### 2. ダッシュボード更新
 
-- dashboard/business-status.md を最新情報で更新
-- 昨日変更があった場合は dashboard/financial-summary.md にも反映
+- dashboards/ceo-dashboard.md を最新情報で更新
+- 昨日変更があった場合は dashboards/financial-summary.md にも反映
 
 ### 3. エージェント作業ログ
 
-- dashboard/agent-log.md から前回ブリーフィング以降のエントリーを抽出
+- dashboards/agent-log.md から前回ブリーフィング以降のエントリーを抽出
 
 ### 4. Obsidian 保管庫チェック
 
@@ -47,5 +47,10 @@ Slack 向けに簡潔にまとめる（mobile-ops スキルの応答ルールに
 ```
 
 詳細は「詳しく」と返信されたら展開する。
+
+### 8. Slack 送信
+
+- Slack MCP で #ceo チャンネルにブリーフィングレポートをそのまま投稿する
+- 投稿後、dashboards/agent-log.md に送信完了のエントリーを追記する
 
 $ARGUMENTS

@@ -8,19 +8,19 @@
 ## Mentor
 | Role | Agent | Folder | Mode |
 |------|-------|--------|------|
-| Chairman（会長） | chairman | chairman/ | 日報・週報受領時 / 社長の相談時 |
+| Chairman（会長） | chairman | chairman（会長）/ | 日報・週報受領時 / 社長の相談時 |
 
 ## Organization
 | Role | Agent | Folder | Mode |
 |------|-------|--------|------|
-| CEO | ceo | ceo/ | 常駐 |
-| COS（秘書室長） | cos | cos/ | 常駐 |
-| CTO（技術） | cto | cto/ | 常駐 |
-| CMO（マーケティング） | cmo | cmo/ | 常駐 |
-| CFO（経理） | cfo | cfo/ | 常駐 |
-| CIO（投資分析） | cio | cio/ | 常駐 |
-| CQO（品質管理） | cqo | cqo/ | オンデマンド |
-| CLO（法務） | clo | clo/ | オンデマンド |
+| CEO | ceo | ceo（最高経営責任者）/ | 常駐 |
+| COS（秘書室長） | cos | cos（秘書室長）/ | 常駐 |
+| CTO（技術） | cto | cto（最高技術責任者）/ | 常駐 |
+| CMO（マーケティング） | cmo | cmo（最高マーケティング責任者）/ | 常駐 |
+| CFO（経理） | cfo | cfo（最高財務責任者）/ | 常駐 |
+| CIO（投資分析） | cio | cio（最高情報責任者）/ | 常駐 |
+| CQO（品質管理） | cqo | cqo（最高品質責任者）/ | オンデマンド |
+| CLO（法務） | clo | clo（最高法務責任者）/ | オンデマンド |
 
 ## Workspace
 - HQ: ./ (このフォルダ)

@@ -11,7 +11,7 @@ Haiku（データ取得・フォーマット変換）
 `../accounting/`
 
 ## 読み込み必須
-- 自部門の CLAUDE.md（../cfo/CLAUDE.md）も必ず読み込むこと
+- 自部門の CLAUDE.md（../cfo（最高財務責任者）/CLAUDE.md）も必ず読み込むこと
 - ../guidelines/security-policy.md を必ず確認すること
 - ../guidelines/ 配下の全ファイルを行動規範とすること
 

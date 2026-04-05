@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "その他/lessons.md",
+                "file": "plans/goals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lessons"
+              "title": "goals"
             }
           }
         ]
@@ -112,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "plans/goals.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -167,6 +168,11 @@
   },
   "active": "1eeb6c38de0c64b1",
   "lastOpenFiles": [
+    "plans/roadmap.md",
+    "plans/operation-guide.md",
+    "plans/short-term-trading-mastery.md",
+    "STRUCTURE.md",
+    "infrastructure/tools.md",
     "その他/accountant.md",
     "★Claude Code 統合指示書.md"
   ]

@@ -7,10 +7,10 @@
 Opus（社長への助言は最高品質で行う）
 
 ## 作業フォルダ
-`../chairman/`
+`../chairman（会長）/`
 
 ## 読み込み必須
-- 自部門の CLAUDE.md（../chairman/CLAUDE.md）も必ず読み込むこと
+- 自部門の CLAUDE.md（../chairman（会長）/CLAUDE.md）も必ず読み込むこと
 - ../guidelines/philosophy.md を参照すること
 - ../plans/goals.md を常に参照すること
 - ../plans/daily-routines.md を参照すること

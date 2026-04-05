@@ -11,7 +11,7 @@ Sonnet（通常のコード生成・レビュー）
 `~/dev/` 配下の各リポジトリ
 
 ## 読み込み必須
-- 自部門の CLAUDE.md（../cto/CLAUDE.md）も必ず読み込むこと
+- 自部門の CLAUDE.md（../cto（最高技術責任者）/CLAUDE.md）も必ず読み込むこと
 - ../guidelines/security-policy.md を必ず確認すること
 - ../guidelines/ 配下の全ファイルを行動規範とすること
 

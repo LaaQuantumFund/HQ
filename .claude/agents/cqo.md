@@ -10,7 +10,7 @@ Sonnet（レビュー・ファクトチェック）
 オンデマンド起動のため固定フォルダなし
 
 ## 読み込み必須
-- 自部門の CLAUDE.md（../cqo/CLAUDE.md）も必ず読み込むこと
+- 自部門の CLAUDE.md（../cqo（最高品質責任者）/CLAUDE.md）も必ず読み込むこと
 - ../guidelines/brand-guidelines.md を必ず確認すること
 - ../guidelines/output-standards.md を必ず確認すること
 - ../guidelines/ 配下の全ファイルを行動規範とすること

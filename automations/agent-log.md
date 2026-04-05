@@ -20,6 +20,14 @@ updated: YYYY-MM-DD
 
 ## ログ
 
+### 2026-04-03 10:29 – CEO
+- **タスク**: Linear MCP 接続確認（BUS-1 作成テスト成功）
+- **結果**: 完了
+
+### 2026-04-03 10:35 – CEO
+- **タスク**: /daily-briefing 初回実行。ceo-dashboard.md 初期化、agent-log.md 作成
+- **結果**: 完了
+
 ### 2026-04-03 – CEO（Claude Code）
 - **タスク**: 設計書v3の統合 + ~/hq/ ワークスペース全面再構成
 - **成果物**:

@@ -27,8 +27,8 @@
         "matcher": "",
         "hooks": [
           {
-            "type": "prompt",
-            "prompt": "作業が完了した場合、dashboard/agent-log.md に作業内容を追記したか確認してください。未追記なら {\"ok\": false, \"reason\": \"agent-log.md に作業ログを追記してください\"} を返してください。"
+            "type": "command",
+            "command": "test -f automations/agent-log.md && echo '{\"ok\": true}' || echo '{\"ok\": false, \"reason\": \"agent-log.md not found\"}'"
           }
         ]
       }

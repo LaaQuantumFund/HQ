@@ -6,5 +6,11 @@
     "additionalDirectories": [
       "/Users/laa/.claude"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "slack",
+    "freee",
+    "obsidian",
+    "github"
+  ]
 }

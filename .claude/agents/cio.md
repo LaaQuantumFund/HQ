@@ -11,7 +11,7 @@ Opus（分析・シナリオ構築・レポート作成）
 `../Brain/02_areas/trading/`（COS経由で書き込み）
 
 ## 読み込み必須
-- 自部門の CLAUDE.md（../cio/CLAUDE.md）も必ず読み込むこと
+- 自部門の CLAUDE.md（../cio（最高情報責任者）/CLAUDE.md）も必ず読み込むこと
 - ../guidelines/ 配下の全ファイルを行動規範とすること
 
 ## 担当業務
