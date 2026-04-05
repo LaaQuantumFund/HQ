@@ -9,6 +9,8 @@
 ├── CLAUDE.md                          # ワークスペース全体のルール・CEOエージェント定義
 ├── CONTEXT.md                         # 統合コンテキスト（AIチャット冒頭に読み込ませる）
 ├── .mcp.json                          # MCP サーバ接続設定（Slack, freee, Obsidian, GitHub）
+├── .env                               # シークレット（SLACK_BOT_TOKEN 等）※git管理外
+├── .gitignore                         # git除外設定（.env）
 ├── STRUCTURE.md                       # 本ファイル
 ├── ETHOS.md                           # ワークフロー哲学・価値基準ドキュメント（第一原理・Solo-CEO・DPGE等）
 ├── COMMANDS.md                        # コマンド・パス クイックリファレンス（起動コマンド・パス一覧）
@@ -22,7 +24,6 @@
 │   │   ├── delegate-task.md           #   タスク委譲の実行手順
 │   │   ├── business-review.md         #   週次ビジネスレビュー手順
 │   │   ├── decision-log.md            #   意思決定の記録手順
-│   │   ├── chairman.md               #   /chairman: 会長セッション起動
 │   │   ├── marketing.md              #   /marketing: CMO タスク起動
 │   │   ├── development.md            #   /development: CTO タスク起動
 │   │   ├── accounting.md             #   /accounting: CFO タスク起動
@@ -31,7 +32,6 @@
 │   │   └── legal-review.md           #   /legal-review: CLO タスク起動
 │   │
 │   ├── agents/                        # --- エージェント定義 ---
-│   │   ├── chairman.md               #   会長: 社長のメンター・日報週報レビュー（Opus）
 │   │   ├── ceo.md                    #   CEO: 計画・ルーティング・統合（タスク実行禁止）
 │   │   ├── cos.md                    #   COS: リサーチ・Brain管理・スケジュール管理
 │   │   ├── cto.md                    #   CTO: 開発設計・実装・レビュー・CI/CD
@@ -42,13 +42,8 @@
 │   │   └── clo.md                    #   CLO: 法務リサーチ・契約ドラフト（オンデマンド）
 │   │
 │   └── skills/                        # --- 再利用可能スキル ---
-│       ├── trade-review/SKILL.md     #   トレード日報・週報レビュー（Chairman使用）
-│       └── habit-review/SKILL.md     #   習慣達成状況レビュー（Chairman使用）
-│
-├── chairman/                          # --- 会長部門 ---
-│   ├── CLAUDE.md                     #   部門ルール: 社長メンター・レビュー定義
-│   ├── daily-report-template.md      #   日報テンプレート
-│   └── weekly-report-template.md     #   週報テンプレート
+│       ├── trade-review/SKILL.md     #   トレード日報・週報レビュー
+│       └── habit-review/SKILL.md     #   習慣達成状況レビュー
 │
 ├── ceo/                               # --- CEO部門: 計画・ルーティング・統合 ---
 │   └── CLAUDE.md                     #   部門ルール: 自ら実行せず各部門へ委任
@@ -96,7 +91,12 @@
 │   ├── project-knowledge-sync.md     #   旧: Claude Desktop ナレッジ更新ルール
 │   ├── mid-term-corporate-launch.md  #   旧: 5月法人登記計画（workflow.md に統合済み）
 │   ├── phase-roadmap.md              #   旧: Phase 1-4 インフラ移行計画（workflow.md に統合済み）
-│   └── workspace-guide.md            #   旧: ワークスペース利用ガイド（CONTEXT.md と重複）
+│   ├── workspace-guide.md            #   旧: ワークスペース利用ガイド（CONTEXT.md と重複）
+│   ├── chairman.md                   #   旧: Chairman エージェント定義（Claude Project に移行）
+│   ├── chairman-claude.md            #   旧: Chairman 部門 CLAUDE.md（Claude Project に移行）
+│   ├── chairman-command.md           #   旧: /chairman コマンド定義（Claude Project に移行）
+│   ├── chairman-daily-report-template.md  #   旧: 日報テンプレート
+│   └── chairman-weekly-report-template.md #   旧: 週報テンプレート
 │
 ├── content/                           # --- コンテンツ管理（Phase 3以降） ---
 │   ├── note/

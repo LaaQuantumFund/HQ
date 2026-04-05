@@ -5,11 +5,6 @@
 社長（人間）の指示を受け、計画・ルーティング・統合を行う。
 自らタスクを実行しない。必ず担当 CxO に委任する。
 
-## Mentor
-| Role | Agent | Folder | Mode |
-|------|-------|--------|------|
-| Chairman（会長） | chairman | chairman（会長）/ | 日報・週報受領時 / 社長の相談時 |
-
 ## Organization
 | Role | Agent | Folder | Mode |
 |------|-------|--------|------|

@@ -9,21 +9,21 @@
 
 ### 1.1 組織図
 
-Chairman（会長AI / Sonnet）
-  └── 社長（あなた）
-        └── CEO エージェント（Opus / Sonnet 併用）
-              ├── COS（秘書 / Haiku）
-              ├── CTO（技術統括 / Sonnet）
-              ├── CMO（マーケティング / Sonnet）
-              ├── CFO（経理・財務 / Haiku）
-              ├── CIO（投資分析 / Sonnet）
-              ├── CQO（品質管理 / Haiku）
-              └── CLO（法務 / Haiku）
+社長（あなた）
+  └── CEO エージェント（Opus / Sonnet 併用）
+        ├── COS（秘書 / Haiku）
+        ├── CTO（技術統括 / Sonnet）
+        ├── CMO（マーケティング / Sonnet）
+        ├── CFO（経理・財務 / Haiku）
+        ├── CIO（投資分析 / Sonnet）
+        ├── CQO（品質管理 / Haiku）
+        └── CLO（法務 / Haiku）
+
+※ 日報・週報のレビューは Claude Project（外部）で実施。HQ エージェント組織の管轄外。
 
 ### 1.2 役割の関係
 
-- **Chairman（会長）**: あなたの「目標達成後の理想の自分」として設計されたAI。日報・週報をレビューし、方向性のブレを指摘、メンタルケアも行う。あなたの上位存在。固定プロンプトで一貫した基準を保つ。
-- **社長（あなた）**: 最終意思決定者。Chairman にレビューを受け、CEO に指示を出す。
+- **社長（あなた）**: 最終意思決定者。CEO に指示を出す。
 - **CEO エージェント**: CxO チームを統括し、日次ブリーフィング・週次レポートを作成。Slack の #ceo チャンネルで報告。重要判断は Opus、ルーティンは Sonnet で実行。
 - **各 CxO**: 担当領域のタスクを実行。CEO の指示で動く。
 
@@ -31,7 +31,6 @@ Chairman（会長AI / Sonnet）
 
 | エージェント | モデル | 理由 |
 |---|---|---|
-| Chairman | Sonnet | 固定基準でのレビュー。高度推論不要 |
 | CEO | Opus（判断時）/ Sonnet（ルーティン） | 統括・意思決定は Opus、日次報告は Sonnet |
 | COS | Haiku | 秘書・事務処理。軽量で十分 |
 | CTO | Sonnet | 技術設計・コードレビュー |
@@ -43,10 +42,6 @@ Chairman（会長AI / Sonnet）
 
 ### 1.4 日報・週報の流れ
 
-**あなた → Chairman:**
-- 毎日: Slack #chairman に日報を投稿 → Chairman がレビュー・助言
-- 毎週金曜: 週報を投稿 → Chairman が進捗評価・方針確認
-
 **CEO → あなた:**
 - 毎日: /daily-briefing で事業サマリーを Slack #ceo に投稿
 - 毎週金曜: 週次レポートを dashboards/weekly-report.md に作成・Slack #ceo に投稿
@@ -57,12 +52,6 @@ Chairman（会長AI / Sonnet）
 - メンタル状態（1-10スケール）
 - 明日の予定
 - 気づき・反省
-
-**Chairman がレビューする観点:**
-- goals.md の目標と日報の整合性
-- ルール遵守の傾向（緩んでいないか）
-- メンタルの推移（危険信号がないか）
-- フェーズに対する進捗の遅れ
 
 ---
 
@@ -291,9 +280,6 @@ Chairman（会長AI / Sonnet）
 /daily-briefing（毎日手動実行）
 → Linear の issue 確認 → dashboards/ceo-dashboard.md 更新 → Slack #ceo にサマリー送信
 
-/chairman（日報提出時に手動実行）
-→ Brain の goals.md, habits/, trading/journal/ を参照 → 日報をレビュー → Slack #chairman にフィードバック
-
 ### Phase 2 以降で追加
 
 - Slack でメッセージ送信 → VPS 上の Claude Code が自動受信・実行
@@ -428,7 +414,6 @@ Slack から（Phase 2 以降）:
 
 - hq / Brain / dev フォルダ構成
 - CxO エージェント定義
-- Chairman エージェント定義
 - Slack MCP 接続（メッセージ送受信確認済み）
 - Linear MCP 接続（issue 作成確認済み）
 - Obsidian MCP 接続
@@ -449,7 +434,6 @@ Slack から（Phase 2 以降）:
 - Brain の mindset/ 各ファイルの内容記入
 - Brain の habits/ 各ファイルの内容記入
 - Obsidian テンプレート（trade-journal, weekly-review 等）の内容確認
-- Chairman への日報提出サイクル開始
 - Linear でのタスク管理運用開始
 
 ### 未着手（Phase 2 以降）

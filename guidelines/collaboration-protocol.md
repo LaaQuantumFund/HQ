@@ -3,7 +3,7 @@
 ## コミュニケーション
 - 部門間連携は CEO を経由（原則）
 - 緊急時は直接連携可（事後に CEO へ報告）
-- Slack チャンネル: #chairman, #ceo, #cos, #cto, #cmo, #cfo, #cio, #general
+- Slack チャンネル: #ceo, #cos, #cto, #cmo, #cfo, #cio, #general
 
 ## タスク管理
 - Linear でチケット管理

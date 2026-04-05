@@ -127,7 +127,6 @@
 - CONTEXT.md ... このファイル
 - STRUCTURE.md ... HQ全体のフォルダ構成定義
 - .mcp.json ... MCP接続設定
-- chairman（会長）/ ... 社長（Chairman）のCLAUDE.md。最上位の意思決定ルール
 - ceo（最高経営責任者）/ ... CEO AgentのCLAUDE.md
 - cos（秘書室長）/ ... COS AgentのCLAUDE.md
 - cto（最高技術責任者）/ ... CTO AgentのCLAUDE.md
@@ -178,7 +177,7 @@
 
 ## 6. AI組織構成
 
-社長（Chairman / 自分）がSlackで指示・承認する。
+社長（自分）がSlackで指示・承認する。
 
 CEO Agent（全体統括・意思決定支援）の配下:
 - COS（Chief of Staff）... リサーチ・Brain読み取り・情報整理・タスク優先度管理

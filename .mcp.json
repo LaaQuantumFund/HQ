@@ -1,10 +1,10 @@
 {
   "mcpServers": {
     "slack": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-slack"],
+      "command": "/bin/sh",
+      "args": ["-c", "source \"$HQ_DIR/.env\" && npx -y @modelcontextprotocol/server-slack"],
       "env": {
-        "SLACK_BOT_TOKEN": "",
+        "HQ_DIR": "/Users/laa/Library/Mobile Documents/iCloud~md~obsidian/Documents/HQ",
         "SLACK_TEAM_ID": "T0ARG15K2LQ"
       }
     },

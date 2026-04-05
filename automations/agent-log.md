@@ -31,7 +31,7 @@ updated: YYYY-MM-DD
 ### 2026-04-03 – CEO（Claude Code）
 - **タスク**: 設計書v3の統合 + ~/hq/ ワークスペース全面再構成
 - **成果物**:
-  - .claude/agents/ 全9ファイル（ceo/cos/cto/cmo/cfo/cio/cqo/clo/chairman）書き込み完了
+  - .claude/agents/ 全8ファイル（ceo/cos/cto/cmo/cfo/cio/cqo/clo）書き込み完了
   - guidelines/ 全7ファイル（company-overview/brand-guidelines/output-standards/collaboration-protocol/escalation-rules/security-policy/philosophy）書き込み完了
   - 8部門 CLAUDE.md 全て書き込み完了
   - plans/roadmap.md にAI組織導入フェーズ（Phase 1〜5）を統合

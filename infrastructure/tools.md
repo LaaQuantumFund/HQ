@@ -132,7 +132,7 @@ Slack
 | デバイス | 📱 iPhone / 💻 MacBook |
 | 料金 | 無料プラン（90日メッセージ制限）→ 将来 Pro ¥1,050/月 |
 | 構成 | Slack Bot（MCP 経由）+ n8n からの通知 |
-| チャンネル | #chairman, #ceo, #cos, #cto, #cmo, #cfo, #cio, #general |
+| チャンネル | #ceo, #cos, #cto, #cmo, #cfo, #cio, #general |
 | 通信フロー | 社長 → Slack → Claude Code（指示受信） / Claude Code → Slack → 社長（報告送信） |
 | 導入 | Phase 2 |
 
